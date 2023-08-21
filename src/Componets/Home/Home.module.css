@@ -5,6 +5,7 @@
   background-position: center;
   background-size: cover;
   height: 1200px;
+  
 }
 .title {
     text-align: center;
@@ -12,13 +13,18 @@
     font-size: 40px;
     color: slateblue
 }
+
 .image {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-content: center;
-    padding-top: 50px
+    padding-top: 50px;
+    margin: auto;
+
 }
 .image img {
-    width: 700px;
-    box-shadow: 10px 10px 10px 10px papayawhip
+    width: 600px;
+    box-shadow: 10px 10px 10px 10px papayawhip;
+    margin: auto
 }

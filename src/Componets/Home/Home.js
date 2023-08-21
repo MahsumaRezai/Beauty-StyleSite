@@ -7,11 +7,16 @@ const Home = (props) => {
         <Fragment>
             <h1 className={classes.title}>Beauty Style</h1>
             <div className={classes.home}>
-
                 <div className={classes.image}>
                     <img src={img1} alt="" />
+                    <button className="btn">Read More</button>
+
                 </div>
+
+
             </div>
+
+
         </Fragment>
     )
 }

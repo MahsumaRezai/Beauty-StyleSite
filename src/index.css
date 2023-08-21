@@ -8,8 +8,17 @@ body {
   font-family: sans-serif;
   margin: 0;
   font-family:  sans-serif;
-  
-  
-
 }
-
+.btn {
+  width: 600px;
+  height: 50px;
+  background: slateblue;
+  border: unset;
+  margin: auto;
+  margin-top:50px;
+  font-size: 18px;
+  color: white;
+}
+.btn button{
+  margin: auto
+}
