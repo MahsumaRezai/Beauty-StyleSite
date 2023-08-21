@@ -1,0 +1,24 @@
+.home {
+ background-image: url('../image/product_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  height: 1200px;
+}
+.title {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: slateblue
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px
+}
+.image img {
+    width: 700px;
+    box-shadow: 10px 10px 10px 10px papayawhip
+}
