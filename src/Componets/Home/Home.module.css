@@ -1,17 +1,13 @@
 .home {
- background-image: url('../image/product_bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: center;
-  background-size: cover;
-  height: 1200px;
+  background:  wheat;
+  height: 900px;
   
 }
 .title {
     text-align: center;
     padding-top: 50px;
     font-size: 40px;
-    color: slateblue
+    color: darkblue
 }
 
 .image {
@@ -19,12 +15,12 @@
     justify-content: center;
     flex-direction: column;
     align-content: center;
-    padding-top: 50px;
+    padding-top: 100px;
     margin: auto;
 
 }
 .image img {
-    width: 600px;
+    width:700px;
     box-shadow: 10px 10px 10px 10px papayawhip;
-    margin: auto
+    margin: auto;
 }
