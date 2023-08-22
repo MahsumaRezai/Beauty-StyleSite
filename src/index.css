@@ -10,9 +10,9 @@ body {
   font-family:  sans-serif;
 }
 .btn {
-  width: 600px;
+  width: 200px;
   height: 50px;
-  background: slateblue;
+  background: black;
   border: unset;
   margin: auto;
   margin-top:50px;

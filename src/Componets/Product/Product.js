@@ -3,8 +3,9 @@ import classes from './Product.module.css';
 import img1 from '../image/blog1.jpg';
 import img2 from '../image/blog2.jpg';
 import img3 from '../image/blog3.jpg';
+import Button from '../Button/Button'
 
-const Product = () => {
+const Product = (porps) => {
     return (
         <Fragment>
             <div className={classes.content}>
@@ -33,6 +34,7 @@ const Product = () => {
 
 
                 </div>
+                <Button onClick={porps.onshow}>Read More</Button>
 
             </div>
         </Fragment>
