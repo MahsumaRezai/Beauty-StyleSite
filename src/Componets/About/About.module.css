@@ -12,7 +12,8 @@
     border-radius: 100px;
     border: 1px solid black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap:20px;
     justify-content: center;
     align-items: center;
     background:antiquewhite;

@@ -14,18 +14,23 @@ const About = (props) => {
             <div className={classes.content}>
                 <div className={classes.cart}>
                     <img src={img1} alt="" />
+                    <p>Nail Art</p>
                 </div>
+
 
                 <div className={classes.cart}>
                     <img src={img2} alt="" />
+                    <p>Manicure</p>
                 </div>
 
                 <div className={classes.cart}>
                     <img src={img3} alt="" />
+                    <p>Pedicure</p>
                 </div>
 
                 <div className={classes.cart}>
                     <img src={img4} alt="" />
+                    <p>Paraffin wax</p>
                 </div>
 
             </div>
