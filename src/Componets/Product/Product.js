@@ -4,6 +4,7 @@ import img1 from '../image/blog1.jpg';
 import img2 from '../image/blog2.jpg';
 import img3 from '../image/blog3.jpg';
 import Button from '../Button/Button'
+import Line from '../About/Line';
 
 const Product = (porps) => {
     return (
@@ -37,6 +38,7 @@ const Product = (porps) => {
                 <Button onClick={porps.onshow}>Read More</Button>
 
             </div>
+            <Line/>
         </Fragment>
     )
 }

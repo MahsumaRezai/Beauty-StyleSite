@@ -24,6 +24,7 @@ function App() {
             <Line />
             <Product onshow={showCart} />
             {add && <ErroModal onhide={hideCart} />}
+            
         </Fragment >
     )
 }
