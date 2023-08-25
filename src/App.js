@@ -6,16 +6,25 @@ import Product from "./Componets/Product/Product";
 import ErroModal from "./Componets/UI/ErrorModal";
 import Information from "./Componets/Information/Information";
 import Form from "./Componets/Form/Form";
+import FormModule from './Componets/Form/FormModule';
+
 
 
 function App() {
     const [add, setAdd] = useState(false);
+    const [form, setform] = useState(false);
     const showCart = () => {
         setAdd(true);
 
     }
     const hideCart = () => {
         setAdd(false)
+    }
+    const formTrue = () => {
+        setform(true)
+    }
+    const formFalse = () => {
+        setform(false)
     }
 
 
@@ -24,11 +33,13 @@ function App() {
             <Home />
             <About />
             <Line />
-            <Information/>
+            <Information />
             <Product onshow={showCart} />
             {add && <ErroModal onhide={hideCart} />}
-            <Form/>
-            
+            <Form onform={formTrue} />
+            {form && <FormModule ofform={formFalse} />}
+
+
         </Fragment >
     )
 }
