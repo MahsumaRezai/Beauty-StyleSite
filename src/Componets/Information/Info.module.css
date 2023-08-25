@@ -8,6 +8,11 @@
     padding-bottom: 100px;
 
 }
+@media screen and(max-width:540px){
+    .info{
+        flex-direction: column;
+    }
+}
 .text {
     display: flex;
     flex-direction: column;
