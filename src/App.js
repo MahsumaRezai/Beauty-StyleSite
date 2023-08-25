@@ -5,6 +5,7 @@ import Line from "./Componets/About/Line";
 import Product from "./Componets/Product/Product";
 import ErroModal from "./Componets/UI/ErrorModal";
 import Information from "./Componets/Information/Information";
+import Form from "./Componets/Form/Form";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Information/>
             <Product onshow={showCart} />
             {add && <ErroModal onhide={hideCart} />}
+            <Form/>
             
         </Fragment >
     )
