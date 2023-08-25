@@ -1,8 +1,22 @@
-import { Fragment } from "react";
+import { Fragment, useRef } from "react";
 import img from '../image/right.png';
 import classes from './Form.module.css'
+import Button from "./Button";
 
 const Form = (props) => {
+    const NameCheck = useRef();
+    const PasswordCheck = useRef();
+    const EmailCheck = useRef();
+
+    const FormHandler = (event) => {
+        event.preventDefault();
+        const nameEnterd = NameCheck.current.value;
+        const passwordEnterd = PasswordCheck.current.value;
+        const emailEnterd = EmailCheck.current.value;
+
+
+
+    }
     return (
         <Fragment>
             <div >
@@ -15,6 +29,7 @@ const Form = (props) => {
                     <input placeholder="Phone Number" />
                     <input placeholder="Email" />
                     <textarea className={classes.text}></textarea>
+                    <Button>Send Me</Button>
 
                 </form>
 

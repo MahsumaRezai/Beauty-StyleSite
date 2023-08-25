@@ -12,6 +12,16 @@
     margin-top: -300px;
     gap: 20px
 }
+.btn {
+    width: 200px;
+    height: 50px;
+    background:#2e2d2d;
+    border: unset;
+    margin: auto;
+    margin-bottom:50px;
+    font-size: 18px;
+    color: white;
+}
 .content input {
     border: #fff solid 1px;
     padding: 0 15px;
